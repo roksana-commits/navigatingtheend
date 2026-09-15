@@ -27,3 +27,15 @@
 .site-footer .footer-links .footer-social{display:flex;flex-basis:100%;width:100%;justify-content:flex-end;margin-top:8px}
 .site-footer .footer-social .social-icons{justify-content:flex-end}
 @media(max-width:820px){.site-footer .footer-links{width:100%;justify-content:flex-end;margin-left:auto}}
+
+
+/* Latest article feature */
+.latest-story{padding:80px 0 72px;border-top:1px solid #959a8460}
+.latest-story-grid{display:grid;grid-template-columns:minmax(0,.95fr) minmax(0,1.05fr);gap:clamp(30px,5vw,68px);align-items:center}
+.latest-story-image{margin:0;overflow:hidden;border-radius:120px 120px 3px 3px;background:#959a84}
+.latest-story-image img{display:block;width:100%;height:auto}
+.latest-story-copy{max-width:560px}
+.latest-story-copy h2{margin:0 0 18px;font:clamp(2rem,4vw,3.55rem)/1.06 Georgia,serif;letter-spacing:-.04em}
+.latest-story-copy p:not(.eyebrow){margin:0;color:var(--muted);font-size:1.05rem}
+.home .latest-story .button{margin-top:24px}
+@media(max-width:820px){.latest-story{padding:58px 0}.latest-story-grid{grid-template-columns:1fr;gap:30px}.latest-story-image{max-width:570px}.latest-story-copy h2{font-size:clamp(2rem,8vw,3rem)}}
